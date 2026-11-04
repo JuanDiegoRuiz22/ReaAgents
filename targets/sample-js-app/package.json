@@ -1,0 +1,8 @@
+{
+  "name": "sample-js-app",
+  "version": "1.0.0",
+  "description": "Small test app written for the REA isolation test (Phase 5). Safe to analyze.",
+  "type": "module",
+  "main": "src/main.js",
+  "private": true
+}

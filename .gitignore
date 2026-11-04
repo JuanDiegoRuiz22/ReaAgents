@@ -1,0 +1,50 @@
+# ---- Dependencies, caches and toolchain (rebuilt by bootstrap.ps1) ----
+node_modules/
+.npm-cache/
+.npm-prefix/
+.tools/
+.rea-runtime/
+vendor/
+
+# ---- Generated per machine (absolute paths) ----
+.mcp.json
+.claude/skills/reverse-engineer-anything/
+.claude/settings.local.json
+
+# ---- Analysis data: NEVER publish (third-party binaries, decompiled code) ----
+targets/*
+!targets/.gitkeep
+!targets/sample-js-app/
+projects/*
+!projects/.gitkeep
+findings/*
+!findings/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# Binaries and packages anywhere
+*.apk
+*.aab
+*.xapk
+*.ipa
+*.dex
+*.so
+*.exe
+*.dll
+*.node
+*.jar
+*.zip
+*.tgz
+*.tar.gz
+
+# ---- Secrets ----
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# ---- Misc ----
+*.log
+.kit-test/

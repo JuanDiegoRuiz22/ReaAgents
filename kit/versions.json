@@ -1,0 +1,27 @@
+{
+  "comment": "Pins verified during the audit (SECURITY_AUDIT.md). bootstrap.ps1 refuses anything that does not match. To upgrade, follow README.md > Actualizar REA de forma segura.",
+  "node": {
+    "version": "24.22.2",
+    "url": "https://nodejs.org/dist/v24.22.2/node-v24.22.2-win-x64.zip",
+    "zipSha256": "ca1bff5d8ead13c9f2ea404a176db46bd430704d5b5113734049fa365e7799e2",
+    "nodeExeSha256": "1c331340fa6cac5e4294725959070a143fa0507195a78ad77eed7943f719aac9",
+    "verifiedWith": "SHASUMS256.txt signed with a key from github.com/nodejs/release-keys (gpgv), then SHA256"
+  },
+  "reaAgents": {
+    "version": "6.8.0",
+    "repository": "git+https://github.com/morluto/rea.git",
+    "integrity": "sha512-9QDeRnGqEDzABZyr04eLnBXBv/c6I9/TWu/6M0MD4pEfkySI/BIgwTODIbAReX3C1x6hjw9+Jlx4A2yUSPZ9ww==",
+    "provenanceCommit": "160d821ac9a0310afcb8d1fc427862dd6508add5",
+    "nativeAddon": "native/windows/build/rea-windows-x64.node",
+    "nativeAddonSha256": "6a015bfefee7fafb6cbafab659f040170848a45425bbcef6caf962fd39b6ff7b",
+    "skillSha256": "8818b645c9fd348399a50a8678b91cff20215690adad484e70282ff9f2ef91ee",
+    "acceptedAdvisories": ["GHSA-3g3m-2fjr-6pw4", "GHSA-g3hv-75wg-m249", "GHSA-mrhx-c7xc-m3w5"]
+  },
+  "frida": {
+    "version": "17.23.2",
+    "url": "https://github.com/frida/frida/releases/download/17.23.2/frida-v17.23.2-napi-v8-win32-x64.tar.gz",
+    "tarballSha256": "e9dbc08d386130610430137f0bb31d90af7b08c0f5710942d4313368ada930ea",
+    "tarballEntries": ["build/frida_binding.node"],
+    "bindingSha256": "32c73230bdfd4b9a8f1f1871ef616001e486269919f18a111a195854352057dc"
+  }
+}
