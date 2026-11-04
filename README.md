@@ -218,7 +218,9 @@ git commit -m "describe el cambio"
 git push
 ```
 
-Si quieres que otros reutilicen el kit, añade una licencia propia (por ejemplo `LICENSE` con MIT). REA conserva su propia licencia MIT y no se incluye en el repositorio.
+## Licencia
+
+Los archivos de este kit se distribuyen bajo licencia [MIT](LICENSE). REA (`rea-agents`) es © morluto y tiene su propia licencia MIT. No se incluye en este repositorio: `bootstrap.ps1` lo descarga del registro de npm. Lo mismo vale para Node.js, frida y el resto de dependencias, cada una con su propia licencia.
 
 ## Uso responsable
 

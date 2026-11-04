@@ -2,6 +2,7 @@
   "name": "rea-kit",
   "version": "1.0.0",
   "private": true,
+  "license": "MIT",
   "description": "Isolated, audited and pinned setup of REA (rea-agents) for Claude Code on Windows. REA itself is not redistributed: bootstrap.ps1 installs it from the npm registry.",
   "dependencies": {
     "rea-agents": "6.8.0"
